@@ -68,7 +68,7 @@ public final class Chat extends javax.swing.JFrame {
     public Chat() {
         initComponents();
         //   COLOCAR O FRAME TRANSPARENTE
-        setOpacity(0.8f);
+        setOpacity(0.9f);
 
         // COLOCAR A JANELA NO CENTRO DO ECRÃ
         this.setLocation(1056, 325);
@@ -118,7 +118,7 @@ public final class Chat extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(51, 204, 0));
         jPanel1.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(204, 0, 204), 2, true));
-        jPanel1.setCursor(new java.awt.Cursor(java.awt.Cursor.MOVE_CURSOR));
+        jPanel1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jPanel1.setOpaque(false);
         jPanel1.addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseDragged(java.awt.event.MouseEvent evt) {
@@ -138,7 +138,7 @@ public final class Chat extends javax.swing.JFrame {
         lbFechar.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbFechar.setText("FECHAR");
         lbFechar.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(204, 0, 204), 2, true));
-        lbFechar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        lbFechar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         lbFechar.setOpaque(true);
         lbFechar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -153,7 +153,7 @@ public final class Chat extends javax.swing.JFrame {
         lbAtualizar.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lbAtualizar.setText("ATUALIZAR");
         lbAtualizar.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(204, 0, 204), 2, true));
-        lbAtualizar.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        lbAtualizar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         lbAtualizar.setOpaque(true);
         lbAtualizar.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -167,7 +167,7 @@ public final class Chat extends javax.swing.JFrame {
         lbTitulo.setForeground(new java.awt.Color(204, 0, 204));
         lbTitulo.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         lbTitulo.setText("CHAT - INTERNO");
-        lbTitulo.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        lbTitulo.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         lbTitulo.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lbTituloMouseClicked(evt);
