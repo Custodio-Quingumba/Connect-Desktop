@@ -70,6 +70,7 @@ public final class Chat extends javax.swing.JFrame {
         //   COLOCAR O FRAME TRANSPARENTE
         setOpacity(0.9f);
 
+        //Teste
         // COLOCAR A JANELA NO CENTRO DO ECRÃ
         this.setLocation(1056, 325);
         //  COLOCAR OS CANTOS ARREDONDADOS AO ESTILO WINDOWS 11
