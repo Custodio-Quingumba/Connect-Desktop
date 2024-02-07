@@ -284,7 +284,7 @@ public class RegistroDePagamento extends javax.swing.JFrame {
         // TODO add your handling code here:
 
         if (!txtAno.getText().equalsIgnoreCase("")) {
-            if (Integer.parseInt(txtAno.getText()) <= 2023 && Integer.parseInt(txtAno.getText()) >= 2022) {
+            if (Integer.parseInt(txtAno.getText()) <= new Dados().AnoServidor() && Integer.parseInt(txtAno.getText()) >= 2022) {
                 PagamentoOBJ pgm = new PagamentoOBJ(0, idCliente, cbMeses.getSelectedIndex() + 1, Integer.parseInt(txtAno.getText()));
 
                 if (!new Dados().BuscarDiaDePagamento(idCliente).equalsIgnoreCase("-1") && !new Dados().BuscarDiaDePagamento(idCliente).equalsIgnoreCase("0")) {
