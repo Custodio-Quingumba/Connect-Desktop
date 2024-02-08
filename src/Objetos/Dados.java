@@ -80,7 +80,7 @@ public class Dados {
             Conexao.FecharConexão(con, pstm, rs);
         }
     }
-
+    //METODO PARA OBREE TEMA PELO ID
     public TemaOBJ getTema(int idTema) {
         String sql = "SELECT * FROM tema where id = ?";
         PreparedStatement pstm = null;
